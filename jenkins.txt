@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-       git credentialsId: 'git-creds', url: 'https://github.com/shivastunts0327/Vedika-Service.git'
+       git credentialsId: 'git-creds', url: 'https://github.com/satyasri73/jenkins_first'
    }
    stage('gradle Package'){
      def gradleHome = tool name: 'gradle', type: 'gradle'
